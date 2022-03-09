@@ -1,11 +1,24 @@
 #border{
     width: 25%;
     height: 50%;
-    border-width: 1px;
+    border-width: 0px;
     border-style: solid;
     margin: auto;
     padding: 10px;
 
+}
+#image{
+    background-image: url("0e6068eb08dddb94950bbb177abf1c52.jpg");
+}
+#bottom{
+    margin:10px;
+    display: inline;
+    color: rgb(14, 13, 13);
+
+}
+#foot{
+    margin-top: 10%;
+    background-color: rgb(49, 47, 47);
 }
 .inputbox{
     width: 80%;
@@ -22,5 +35,13 @@
     margin-left: 37px; 
     background-color: chocolate;
     color: white;
-    border-width: 0px;   
+    border-width: 0px;  } 
+.firstb{
+    width: 25%;
+    margin: 10px;
+    
+}
+.secb{
+    width: 25%;
+    display: grid;
 }
