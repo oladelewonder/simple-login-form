@@ -19,6 +19,8 @@
     height: 70px;
     padding: 5px;
     margin-top: 10px;
-    margin-left: 37px;    
-}
+    margin-left: 37px; 
+    background-color: chocolate;
+    color: white;
+    border-width: 0px;   
 }
