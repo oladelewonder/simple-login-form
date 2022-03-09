@@ -13,12 +13,18 @@
 #bottom{
     margin:10px;
     display: inline;
-    color: rgb(14, 13, 13);
+    color: rgb(163, 156, 156);
 
 }
 #foot{
     margin-top: 10%;
-    background-color: rgb(49, 47, 47);
+    border-style: solid;
+    border-width: 1px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: beige;
+    
 }
 .inputbox{
     width: 80%;
@@ -36,12 +42,18 @@
     background-color: chocolate;
     color: white;
     border-width: 0px;  } 
+
 .firstb{
-    width: 25%;
-    margin: 10px;
-    
+    margin: 10px;  
+}
+.mi{
+    margin-left: 40%;
 }
 .secb{
     width: 25%;
     display: grid;
+}
+.thrb{
+    width: 25%;
+    float:right;
 }
