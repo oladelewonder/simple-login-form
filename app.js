@@ -9,18 +9,11 @@ var myFunc = setInterval(function(){
     var seconds = Math.floor((timeLeft % (1000*60)) / 1000);
 
 
-document.getElementById("days").innerHTML = days + "d "
-document.getElementById("hours").innerHTML = hours + "h " 
-document.getElementById("mins").innerHTML = minutes + "m " 
-document.getElementById("secs").innerHTML = seconds + "s"
-
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h " + 
+    minutes + "m " + seconds + "s";
 
 if (timeleft < 0) {
     clearInterval(myfunc);
-    document.getElementById("days").innerHTML = ""
-    document.getElementById("hours").innerHTML = "" 
-    document.getElementById("mins").innerHTML = ""
-    document.getElementById("secs").innerHTML = ""
-    document.getElementById("end").innerHTML = "TIME UP!!";
+    document.getElementById("demo").innerHTML = "TIME UP!!";
 }
 },1000)

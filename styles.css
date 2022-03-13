@@ -8,8 +8,9 @@
 
 }
 #timer{
-    margin-left: 50%;
+    margin-left: 35%;
     
+    padding: 10px;    
 }
 
 #image{
@@ -33,10 +34,9 @@
     
 }
 .timer{
-    color: blue;
-    
-    
-
+    color: chocolate;
+    font-size: 500%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .inputbox{
     width: 80%;
