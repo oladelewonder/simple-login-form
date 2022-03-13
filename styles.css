@@ -7,6 +7,8 @@
     padding: 10px;
 
 }
+
+
 #image{
     background-image: url("0e6068eb08dddb94950bbb177abf1c52.jpg");
 }
@@ -26,6 +28,9 @@
     border-right: 0px;
     border-color: beige;
     
+}
+.timercolor{
+    color: blue
 }
 .inputbox{
     width: 80%;
