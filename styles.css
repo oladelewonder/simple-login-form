@@ -7,7 +7,9 @@
     padding: 10px;
 
 }
-
+#timer{
+    
+}
 
 #image{
     background-image: url("0e6068eb08dddb94950bbb177abf1c52.jpg");
@@ -29,8 +31,11 @@
     border-color: beige;
     
 }
-.timercolor{
-    color: blue
+.timer{
+    color: blue;
+    margin: auto;
+    
+
 }
 .inputbox{
     width: 80%;

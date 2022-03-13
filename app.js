@@ -3,10 +3,10 @@ var myFunc = setInterval(function(){
     var now = new Date().getTime();
     var timeLeft = countDownDate - now;
 
-    var days = math.floor(timeLeft/(1000*60*60*24));
-    var hours = math.floor((timeLeft % (1000*60*60*24))/(1000*60*60));
-    var minutes = math.floor((timeLeft % (1000*60*60)) / (1000*60));
-    var seconds = math.floor((timeLeft % (1000*60)) / 1000);
+    var days = Math.floor(timeLeft/(1000*60*60*24));
+    var hours = Math.floor((timeLeft % (1000*60*60*24))/(1000*60*60));
+    var minutes = Math.floor((timeLeft % (1000*60*60)) / (1000*60));
+    var seconds = Math.floor((timeLeft % (1000*60)) / 1000);
 
 
 document.getElementById("days").innerHTML = days + "d "
